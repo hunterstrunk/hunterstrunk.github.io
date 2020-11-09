@@ -28,4 +28,4 @@ has read me with link and description
 
 ### Link
 
-hunterstrunk.github.io
+[deploy](hunterstrunk.github.io)
