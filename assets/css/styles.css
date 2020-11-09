@@ -1,0 +1,56 @@
+/*Global styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*end global styles*/
+
+/*header and nav styles*/
+header {
+    background-color: #141415;
+    color: #f0f0f0;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav ul{
+ list-style: none;
+ float: left;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header h1 {
+    font-size: 32pt;
+}
+
+header nav ul li {
+    margin: 10px;
+    font-size: 20pt;
+}
+
+header nav ul li a {
+    color: #8254ed;
+    text-decoration: none;
+}
+/*end header and nav styles*/
+
+/*Jumbo styling*/
+.jumbo {
+    background-image: url("../images/jumbo.jpg");
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.subtitle {
+   color: #f0f0f0;
+   margin: 20%;
+}
+/*end jumbo styles*/
